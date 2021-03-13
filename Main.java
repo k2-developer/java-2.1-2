@@ -4,7 +4,7 @@ public class Main {
         int depositValue = 5000;
         int totalBonus;
         if (depositValue >= 1000) {
-            clientCurrentBalance = 100 + depositValue / 100;
+            clientCurrentBalance = clientCurrentBalance + depositValue / 100;
             totalBonus = depositValue / 100;
         } else {
             clientCurrentBalance = 100;
